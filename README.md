@@ -17,4 +17,7 @@ Website for TulsaUX.com
 
         $ sass --watch scss/style.scss:style.css
 
+5. Run the following command to compile this SCSS directory for minification.
+
+        $ sass scss/style.scss:style.css --style compressed
 *Note that this does not live reload the project.*
